@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="com.google.guava:guava:18.0">
+    <archive path="C:/Users/user/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar" />
+  </library>
+</eclipse-userlibraries>
+

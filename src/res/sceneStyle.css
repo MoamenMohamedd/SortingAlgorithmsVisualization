@@ -1,0 +1,125 @@
+@charset"windows-1256";
+
+.root {
+	
+}
+
+.toggle-button {
+	-fx-border-width: 2px;
+	-fx-border-style: solid;
+	-fx-font-size: 16px;
+	-fx-border-radius: 4px;
+	-fx-padding: 13px 32px;
+	-fx-cursor: hand;
+}
+
+.toggle-button:selected {
+	-fx-translate-y: -10px;
+	 -fx-border-radius: 4px;
+	-fx-text-fill: white;
+}
+.toggle-button:hover {
+      -fx-translate-y: -10px;
+      -fx-border-radius:4;
+      -fx-text-fill: white;
+}
+
+.merge {
+	-fx-background-color: white;
+	-fx-border-color: #000000;
+}
+
+.merge:hover {
+	-fx-background-color: #000000;
+	-fx-effect: dropshadow(three-pass-box, #666666, 5, 0.0, 4px, 4px);
+}
+
+.merge:selected {
+	-fx-background-color: #000000;
+}
+
+.heap {
+	-fx-background-color: white;
+	-fx-border-color: #008CBA;
+}
+
+.heap:hover {
+	-fx-background-color: #008CBA;
+	-fx-effect: dropshadow(three-pass-box, #66bad5, 5, 0.0, 4px, 4px);
+}
+
+.heap:selected {
+	-fx-background-color: #008CBA;
+}
+
+.quick {
+	-fx-background-color: white;
+	-fx-border-color: #f44336;
+}
+
+.quick:hover {
+	-fx-background-color: #f44336;
+	-fx-effect: dropshadow(three-pass-box, #f88e86, 5, 0.0, 4px, 4px);
+}
+
+.quick:selected {
+	-fx-background-color: #f44336;
+}
+
+.insertion {
+	-fx-background-color: white;
+	-fx-border-color: #ffa500;
+}
+
+.insertion:hover {
+	-fx-background-color: #ffa500;
+	-fx-effect: dropshadow(three-pass-box, #ffc966, 5, 0.0, 4px, 4px);
+}
+
+.insertion:selected {
+	-fx-background-color: #ffa500;
+}
+
+.selection {
+	-fx-background-color: white;
+	-fx-border-color: #ee82ee;
+}
+
+.selection:hover {
+	-fx-background-color: #ee82ee;
+	-fx-effect: dropshadow(three-pass-box, #f4b4f4, 5, 0.0, 4px, 4px);
+}
+
+.selection:selected {
+	-fx-background-color: #ee82ee;
+}
+
+.bubble {
+	-fx-background-color: white;
+	-fx-border-color: #4CAF50;
+}
+
+.bubble:hover {
+	-fx-background-color: #4CAF50;
+	-fx-effect: dropshadow(three-pass-box, #93cf96, 5, 0.0, 4px, 4px);
+}
+
+.bubble:selected {
+	-fx-background-color: #4CAF50;
+}
+
+#graph{
+      -fx-border-radius:4px;
+      -fx-background-color: #f4511e;
+      -fx-text-alignment:center;
+      -fx-font-size:18px;
+      -fx-cursor:hand;
+      -fx-padding:20px;
+      -fx-text-fill: #FFFFFF;
+      -fx-scale-x:1.0;
+      -fx-scale-Y:1.0;
+}
+#graph:hover {
+      -fx-scale-x:1.1;
+      -fx-scale-Y:1.1;
+}
